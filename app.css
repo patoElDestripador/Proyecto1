@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+background-color: aliceblue;
+}
+
 .carrousel{
     width: 100%;
 }
@@ -79,22 +83,30 @@
 }
 
 .card{
-    background-color: brown;
+    background-color:white;
     width: 360px;
     height: 500px;
     border-radius: 3%;
+    margin-left: 100px;
 }
 .cardImagen{
     width: 100%;
     height: 350px;
 }
+.cardIconBoton{
+    background-color: #0091FF;
+    border-radius: 15%;
+    width: 120px;
+    height: 120px;
+}
+
 .ImagenCardItem{
     width: 100%;
     height: 100%;
     background-image: url("https://i.pinimg.com/564x/19/30/7e/19307e425ff1690a9224d545895482e0.jpg");
     background-repeat: no-repeat;
     border-radius: 3%;
-    
+
 }
 
 /*pato*/
