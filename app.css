@@ -194,3 +194,10 @@ background-color: aliceblue;
 }
 
 /*pato*/
+
+@media(max-width:991px){
+    .carrousel{
+        width: 100%;
+    }
+
+}

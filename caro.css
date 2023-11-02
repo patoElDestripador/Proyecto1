@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .carrousel {
+    width: 1280px;
+    height: auto;
+  }
+  
+  .carrousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: deslizar 20s infinite alternate ease-in-out;
+    overflow: hidden;
+  }
+  
+  .carrousel li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+  }
+  
+  .carrousel img {
+    width: 100%;
+  }
+  
+  @keyframes deslizar {
+    0% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
