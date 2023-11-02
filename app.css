@@ -93,7 +93,7 @@
 body
 {
     display: flex;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
     min-height: 10vh;
     background: lincor-gradient(45deg,#9ad751, #2196f3 );
@@ -106,6 +106,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 750px;
 }
 .menu .toggle
 {
