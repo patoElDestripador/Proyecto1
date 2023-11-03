@@ -1,4 +1,11 @@
 /*pato*/
+:roof{
+    --estilo1-color : #0091ff; 
+    --estilo2-color : #FFFFFF; 
+    --estilo3-color : #F6AE2D; 
+    --estilo4-color : #353531; 
+    --estilo5-color : #f2f2f3;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +13,7 @@
 }
 
 body{
-background-color: aliceblue;
+background-color: var(--estilo5-color);
 }
 
 .carrousel{
@@ -15,7 +22,7 @@ background-color: aliceblue;
 
 .conteCarrousel{
     width: 100%;
-    height: 1180px;
+    height: 1380px;
     overflow: hidden;
 }
 
@@ -75,15 +82,14 @@ background-color: aliceblue;
 .conteCarrouselController > a{
     text-decoration: none;
     font-size: 2em;
-    color: grey;
 }
 
 .itemCarrouselArrows > a > i{
-    color: white;
+    color: var(--estilo2-color);
 }
 
 .card{
-    background-color:white;
+    background-color:var(--estilo2-color);
     width: 360px;
     height: 500px;
     border-radius: 15px;
@@ -97,7 +103,7 @@ background-color: aliceblue;
 .animacion1:hover{
     cursor: pointer;
     transform: scale(1.02);
-    box-shadow: 0 4px 5px 0 rgba(0, 145, 255,0.14),0 1px 10px 0 rgba(0, 145, 255,0.12),0 2px 4px -1px rgba(0, 145, 255,0.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 145, 255,0.14),0 1px 10px 0 rgba(0, 145, 255,0.12),0 2px 4px -1px rgba(0, 145, 255,0.3); 
 }
 
 .cardImagen{
@@ -113,7 +119,7 @@ background-color: aliceblue;
 }
 .cardIconBoton{
     cursor: pointer;
-    background-color: #0091ff;
+    background-color: var(--estilo1-color);
     border-radius: 15px;
     width: 130px;
     height: 30px;
@@ -121,7 +127,7 @@ background-color: aliceblue;
 .cardIconBoton p {
     text-align: center;
     margin-top: 5px;
-    color: white;
+    color: var(--estilo2-color);
 }
 
 .ImagenCardItem{
@@ -135,8 +141,8 @@ background-color: aliceblue;
     width: 120px;
     height: 30px;
     font-size:medium;
-    background-color: #0091ff;
-    color: white;
+    background-color: var(--estilo1-color);
+    color: var(--estilo2-color);
     border: 0;
     transition-duration: 100ms;
 }
@@ -148,16 +154,13 @@ background-color: aliceblue;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.cardContenido svg{
-
-}
 
 #textCardTitulo{
     font-size:xx-large;
     margin-top: -15px;
 }
 #textCardDestino{
-    color: #0091ff;
+    color: var(--estilo1-color);
 }
 
 #textCardPresio{

@@ -13,7 +13,7 @@
     display: flex;
     padding: 0;
     width: 400%;
-    animation: deslizar 20s infinite alternate ease-in-out;
+    animation: deslizar 10s infinite alternate ease-in-out;
     overflow: hidden;
   }
   
@@ -28,19 +28,9 @@
   }
   
   @keyframes deslizar {
-    0% {
-      transform: translateX(0%);
-    }
-    25% {
-      transform: translateX(-100%);
-    }
-    50% {
-      transform: translateX(-200%);
-    }
-    75% {
-      transform: translateX(-300%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
+    0% {transform: translateX(0%);}
+    25% {transform: translateX(-100%);}
+    40% {transform: translateX(-100%);}
+    50% {transform: translateX(-200%);}
+    100% {transform: translateX(0%);}
   }
